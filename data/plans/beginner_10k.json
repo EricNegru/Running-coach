@@ -1,0 +1,36 @@
+{
+  "name": "Beginner 10k (6 weeks)",
+  "goal": "Finish a 10k comfortably, around 65 minutes",
+  "weeks": [
+    {"week": 1, "runs": [
+      {"day": "Tue", "type": "easy", "distance_km": 3, "target_pace": "7:15"},
+      {"day": "Thu", "type": "easy", "distance_km": 3, "target_pace": "7:15"},
+      {"day": "Sun", "type": "long", "distance_km": 4, "target_pace": "7:30"}
+    ]},
+    {"week": 2, "runs": [
+      {"day": "Tue", "type": "easy", "distance_km": 3.5, "target_pace": "7:15"},
+      {"day": "Thu", "type": "easy", "distance_km": 3.5, "target_pace": "7:15"},
+      {"day": "Sun", "type": "long", "distance_km": 5, "target_pace": "7:30"}
+    ]},
+    {"week": 3, "runs": [
+      {"day": "Tue", "type": "easy", "distance_km": 4, "target_pace": "7:10"},
+      {"day": "Thu", "type": "tempo", "distance_km": 3, "target_pace": "6:30"},
+      {"day": "Sun", "type": "long", "distance_km": 6, "target_pace": "7:30"}
+    ]},
+    {"week": 4, "runs": [
+      {"day": "Tue", "type": "easy", "distance_km": 3, "target_pace": "7:15"},
+      {"day": "Thu", "type": "easy", "distance_km": 3, "target_pace": "7:15"},
+      {"day": "Sun", "type": "long", "distance_km": 5, "target_pace": "7:30"}
+    ]},
+    {"week": 5, "runs": [
+      {"day": "Tue", "type": "easy", "distance_km": 4.5, "target_pace": "7:10"},
+      {"day": "Thu", "type": "tempo", "distance_km": 4, "target_pace": "6:30"},
+      {"day": "Sun", "type": "long", "distance_km": 8, "target_pace": "7:30"}
+    ]},
+    {"week": 6, "runs": [
+      {"day": "Tue", "type": "easy", "distance_km": 4, "target_pace": "7:10"},
+      {"day": "Thu", "type": "easy", "distance_km": 3, "target_pace": "7:00"},
+      {"day": "Sun", "type": "long", "distance_km": 10, "target_pace": "6:30"}
+    ]}
+  ]
+}

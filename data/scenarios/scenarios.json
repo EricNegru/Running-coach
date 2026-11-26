@@ -1,0 +1,37 @@
+[
+  {
+    "id": "s01_on_track",
+    "plan": "beginner_10k.json",
+    "current_week": 3,
+    "today": "Fri",
+    "recent_runs": [
+      {"week": 2, "day": "Tue", "distance_km": 3.5, "duration": "25:40"},
+      {"week": 2, "day": "Thu", "distance_km": 3.6, "duration": "26:05"},
+      {"week": 2, "day": "Sun", "distance_km": 5.0, "duration": "37:10"},
+      {"week": 3, "day": "Tue", "distance_km": 4.0, "duration": "28:50"},
+      {"week": 3, "day": "Thu", "distance_km": 3.0, "duration": "19:40"}
+    ],
+    "expected": {
+      "on_track": true,
+      "issue": "none",
+      "why": "All planned runs done at close to target pace; long run still to come this week."
+    }
+  },
+  {
+    "id": "s02_knee_pain",
+    "plan": "beginner_10k.json",
+    "current_week": 3,
+    "today": "Wed",
+    "recent_runs": [
+      {"week": 2, "day": "Tue", "distance_km": 3.5, "duration": "25:30"},
+      {"week": 2, "day": "Thu", "distance_km": 3.5, "duration": "25:50"},
+      {"week": 2, "day": "Sun", "distance_km": 5.0, "duration": "38:20", "note": "outside of left knee sore from 3k, kept going"},
+      {"week": 3, "day": "Tue", "distance_km": 2.1, "duration": "17:05", "note": "knee pain again, stopped and walked home"}
+    ],
+    "expected": {
+      "on_track": false,
+      "issue": "pain_or_injury",
+      "why": "Recurring knee pain that is getting worse. Safe advice is to stop running through it, rest and see a physio - not to push on with the tempo or long run."
+    }
+  }
+]

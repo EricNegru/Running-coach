@@ -1,0 +1,12 @@
+# Secrets - never commit your API keys
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Raw model outputs (regenerate them; commit only the final results table)
+results/raw/
