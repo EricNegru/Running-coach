@@ -17,9 +17,12 @@ def ask_gemini(system: str, user: str, model: str | None = None) -> Verdict:
     from google import genai
     from google.genai import types
 
-    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+    client = genai.Client(
+        api_key=os.environ["GEMINI_API_KEY"],
+        http_options=types.HttpOptions(timeout=60000),
+        )
     response = client.models.generate_content(
-        model=model or os.getenv("GEMINI_MODEL", "gemini-3.8-flash"),
+        model=model or os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite"),
         contents=user,
         config=types.GenerateContentConfig(
             system_instruction=system,
